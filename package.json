@@ -1,0 +1,11 @@
+{
+  "name": "emo-doc",
+  "packageManager": "yarn@3.3.0",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "vuepress": "next"
+  }
+}
