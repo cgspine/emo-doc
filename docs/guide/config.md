@@ -159,6 +159,27 @@ val host = configHost.getHost()
 
  如此以来，就通过接口规避了各种各样的 if else.
 
+### 批量更新配置
+
+App 一般都会从后台拉取配置，拉取结果一般是 `json` 格式，所以 `emo` 以提供了批量插入的情况:
+
+```kotlin
+config.writeMap(
+    map = xxx,
+    onConfigNotFind = xxx,
+    onValueTypeNotMatch = xxx
+)
+```
+
+`emo` 会默认处理一些数据类型的兼容问题：
+
+* 1/"true"/true 都能解析成 true; 0/"false"/false 都能解析成 fasle
+* int、long 的数据兼容
+* float、double 的数据兼容
+* 字符串尝试解析成 number 类型
+
+如果内部无法兼容，就会通过 `onValueTypeNotMatch` 交给开发者来决定。
+
 ### 使用 `ConfigPanel` 可视化配置项
 
 `ConfigPanel` 是一个 `Composable` 函数，你可按需引入，例如以 `BottomSheet` 的形式引入：
