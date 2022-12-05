@@ -32,6 +32,8 @@ export default defineUserConfig({
   theme: defaultTheme({
     repo: 'cgspine/emo',
     docsRepo: 'cgspine/emo-doc',
+    docsBranch: 'master',
+    docsDir: 'docs',
     logo: '/images/logo.png',
     navbar: [
       {
