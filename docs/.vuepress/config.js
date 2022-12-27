@@ -61,6 +61,7 @@ export default defineUserConfig({
               '/guide/photo.md',
               '/guide/report.md',
               '/guide/js-bridge.md',
+              '/guide/scheme.md',
               '/guide/exposure.md',
   
           ],
