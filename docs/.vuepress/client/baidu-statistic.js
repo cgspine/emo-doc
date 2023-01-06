@@ -1,6 +1,6 @@
 import { defineClientConfig } from '@vuepress/client'
 import { onMounted } from 'vue'
-import { RouterLink, useRouter } from 'vue-router'
+import { useRouter } from 'vue-router'
 
 
  function submit(waitMills) {
