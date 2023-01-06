@@ -1,4 +1,8 @@
 import { defineUserConfig, defaultTheme } from 'vuepress'
+import { getDirname, path } from '@vuepress/utils'
+import { nprogressPlugin } from '@vuepress/plugin-nprogress'
+
+const __dirname = getDirname(import.meta.url)
 
 export default defineUserConfig({
   lang: 'zh-CN',
@@ -9,6 +13,15 @@ export default defineUserConfig({
     '这是一个 404 页面'
   ],
   backToHome: '返回首页',
+  plugins: [
+    nprogressPlugin(),
+    ()=>{
+      return {
+        name: 'baidu-statistic',
+        clientConfigFile: path.resolve(__dirname, './client/baidu-statistic.js'),
+      }
+    }
+  ],
   head: [
         [
             'link', 
