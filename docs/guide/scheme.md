@@ -242,6 +242,8 @@ fun ModalPage(navBackStackEntry: NavBackStackEntry) {
 }
 ```
 
+> 更多信息请查看公众号文章 [又撸了一个 Scheme 路由](https://mp.weixin.qq.com/s?__biz=Mzk0OTMzMjE2OQ==&mid=2247483975&idx=1&sn=6c0c1b8dc174a46a74078c59055cd8a5&chksm=c358b3e1f42f3af75e331792a4d5ec6ffcee3effe45a622621e1f78753bb23a5cacbbd738d77&token=705170082&lang=zh_CN#rd)
+
 
 
 

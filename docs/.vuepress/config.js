@@ -75,7 +75,7 @@ export default defineUserConfig({
               '/guide/report.md',
               '/guide/js-bridge.md',
               '/guide/scheme.md',
-              '/guide/exposure.md',
+              '/guide/kv.md',
   
           ],
         }
