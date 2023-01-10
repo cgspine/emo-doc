@@ -8,7 +8,7 @@ import ParentLayout from '@vuepress/theme-default/layouts/Layout.vue'
       <div class="developer-container">
         <div class="developer-item developer-item-mp">
             <img src="/images/mp.jpg" alt="策码编腾"/>
-            <div class="developer-item-desc">关注公众号，干货满满的~</div>
+            <div class="developer-item-desc">关注公众号，入群聊聊~</div>
         </div>
         <div class="developer-item developer-item-reward">
             <img src="/images/reward.jpg" alt="给个赞赏"/>

@@ -87,5 +87,5 @@ singleInstance.close()
 
  ### 实现原理与对比
 
-可查看公众号文章 [KV 存储那些事儿]()~
+可查看公众号文章 [KV 存储那些事儿](https://mp.weixin.qq.com/s?__biz=Mzk0OTMzMjE2OQ==&mid=2247483990&idx=1&sn=8c8cdcd39bae07c8f13b852ed50a44da&chksm=c358b3f0f42f3ae6a2ca8f53fffb6310b330fc05bc74e6d278e3491af7689a018bc4ec3d5870&token=705170082&lang=zh_CN#rd)~
 
