@@ -5,10 +5,11 @@
 ## 依赖引入
 
 ```kts
+val version = "0.4.0"
 // 默认使用 coil 作为图片加载器
-implementation("cn.qhplus.emo:photo-coil:0.3.1")
+implementation("cn.qhplus.emo:photo-coil:$version")
 // 可选：如果需要使用其它库，则引入 photo 库，自定义实现 PhotoProvider 即可 
-implementation("cn.qhplus.emo:photo:0.3.1")
+implementation("cn.qhplus.emo:photo:$version")
 ```
 
 ## 九宫格预览图

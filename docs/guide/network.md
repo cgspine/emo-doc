@@ -5,7 +5,7 @@
 ## 依赖引入
 
 ```kts
-implementation("cn.qhplus.emo:network:0.3.0")
+implementation("cn.qhplus.emo:network:0.4.0")
 ```
 
 ## 网络状态

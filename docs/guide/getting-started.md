@@ -3,8 +3,8 @@
 ## 环境要求
 
 1. 最低支持 `API Level` 为 24；
-2. `kotlin` 1.7.20；
-3. `Compose BOM` 2022.11.00，`Compose Compiler` 1.3.2。
+2. `kotlin` 1.8.0；
+3. `Compose BOM` 2023.01.00，`Compose Compiler` 1.4.0。
 
 >历史版本对应关系可查看 [`compose-versions`](https://github.com/cgspine/emo#compose-versions)
 

@@ -13,7 +13,7 @@
 ## 依赖引入
 
 ```kts
-implementation("cn.qhplus.emo:config-report:0.3.1")
+implementation("cn.qhplus.emo:config-report:0.4.0")
 ```
 
 ## 使用
