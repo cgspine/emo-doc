@@ -5,7 +5,7 @@
 ## 依赖引入
 
 ```kts
-implementation("cn.qhplus.emo:modal:0.4.0")
+implementation("cn.qhplus.emo:modal:0.5.0")
 ```
 
 ## Dialog
@@ -145,6 +145,22 @@ view.emoToast(
     exit: ExitTransition = xxx // 退出动画
 ) {
     // Compose 内容
+}
+```
+
+## Tip
+
+显示加载中、加载成功、加载失败的阻塞用户操作的浮层
+
+```kotlin
+val flow = MutableStateFlow<TipStatus>(TipStatus.Loading())
+val tip = view.emoTip(status = flow).show()
+scope.launch {
+    // 耗时操作
+    delay(1000)
+    flow.value = TipStatus.Error()
+    delay(100)
+    tip.dismiss()
 }
 ```
 
