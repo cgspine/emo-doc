@@ -10,7 +10,7 @@
 
 ```kts
 // 此组件依赖了 modal 组件
-implementation("cn.qhplus.emo:permission:0.5.0")
+implementation("cn.qhplus.emo:permission:0.6.0")
 ```
 
 ## 使用

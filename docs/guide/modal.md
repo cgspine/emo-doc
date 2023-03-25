@@ -5,7 +5,7 @@
 ## 依赖引入
 
 ```kts
-implementation("cn.qhplus.emo:modal:0.5.0")
+implementation("cn.qhplus.emo:modal:0.6.0")
 ```
 
 ## Dialog
@@ -161,6 +161,74 @@ scope.launch {
     flow.value = TipStatus.Error()
     delay(100)
     tip.dismiss()
+}
+```
+
+## Popup
+
+```kotlin
+// 提供点击位置检测功能
+ClickPositionCheckerBox(
+    modifier = Modifier
+        .fillMaxWidth()
+        .padding(horizontal = 16.dp, vertical = 8.dp)
+        .clip(RoundedCornerShape(6.dp))
+        .background(MaterialTheme.colorScheme.surfaceVariant),
+    onClick = {
+        // 显示 popup
+        view.emoPopup(
+            offset = it,
+            widthCal = {
+                // 计算 popup 宽度
+                200.dp
+            },
+            background = { MaterialTheme.colorScheme.secondaryContainer }
+        ){
+            Text(
+                text = "This is Popup Content\nThis is Popup Content",
+                modifier = Modifier.padding(16.dp),
+                color = MaterialTheme.colorScheme.onSecondaryContainer
+            )
+        }.show()
+    }
+) {
+    Text(
+        text = "PopUp",
+        modifier = Modifier.padding(horizontal = 16.dp, vertical = 14.dp)
+    )
+}
+```
+## QuickAction
+
+```kotlin
+// 提供点击位置检测功能
+ClickPositionCheckerBox(
+    modifier = Modifier
+        .fillMaxWidth()
+        .padding(horizontal = 16.dp, vertical = 8.dp)
+        .clip(RoundedCornerShape(6.dp))
+        .background(MaterialTheme.colorScheme.surfaceVariant),
+    onClick = {
+        // 显示 quick action
+        view.emoQuickAction(
+            offset = it,
+            actions = listOf(
+                QuickAction(R.drawable.quick_action_ic_copy, "Copy") {
+                    // 点击事件
+                    view.emoToast("What do you want to copy?").show()
+                },
+                QuickAction(R.drawable.quick_action_ic_delete, "Delete") {
+                    // 点击事件
+                    view.emoToast("What do you want to delete?").show()
+                }
+            ),
+            actionWidth = 48.dp
+        ).show()
+    }
+) {
+    Text(
+        text = "Quick Action",
+        modifier = Modifier.padding(horizontal = 16.dp, vertical = 14.dp))
 }
 ```
 

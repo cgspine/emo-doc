@@ -4,7 +4,7 @@
 
 1. 最低支持 `API Level` 为 24；
 2. `kotlin` 1.8.10；
-3. `Compose BOM` 2023.01.00，`Compose Compiler` 1.4.2。
+3. `Compose BOM` 2023.03.00，`Compose Compiler` 1.4.4。
 
 >历史版本对应关系可查看 [`compose-versions`](https://github.com/cgspine/emo#compose-versions)
 

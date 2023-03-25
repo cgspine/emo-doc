@@ -5,7 +5,7 @@
 ## 依赖引入
 
 ```kts
-implementation("cn.qhplus.emo:js-bridge:0.5.0")
+implementation("cn.qhplus.emo:js-bridge:0.6.0")
 ```
 
 ## native 端使用

@@ -58,6 +58,11 @@ export default defineUserConfig({
         link: '/apks/emo.apk',
         target: '_blank',
       },
+      {
+        text: 'emo-ai',
+        link: '/ai/',
+        target: '_blank',
+      },
     ],
     sidebar: {
       '/guide/': [
@@ -68,6 +73,7 @@ export default defineUserConfig({
               '/guide/getting-started.md',
               '/guide/core.md',
               '/guide/network.md',
+              '/guide/device.md',
               '/guide/modal.md',
               '/guide/permission.md',
               '/guide/config.md',
