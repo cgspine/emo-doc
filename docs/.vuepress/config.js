@@ -60,7 +60,7 @@ export default defineUserConfig({
       },
       {
         text: 'emo-ai',
-        link: '/ai/',
+        link: '/ai/dashboard/portal',
         target: '_blank',
       },
     ],
