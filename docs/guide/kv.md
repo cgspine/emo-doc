@@ -5,7 +5,7 @@
 ## 依赖引入
 
 ```kts
-implementation("cn.qhplus.emo:kv:0.6.1")
+implementation("cn.qhplus.emo:kv:0.7.0")
 ```
 
 ### 限制

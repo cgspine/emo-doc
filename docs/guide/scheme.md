@@ -5,7 +5,7 @@
 ## 依赖引入
 
 ```kts
-val version = "0.6.0"
+val version = "0.7.0"
 implementation("cn.qhplus.emo:scheme-impl:$version")
 ksp("cn.qhplus.emo:scheme-ksp:$version")
 ```

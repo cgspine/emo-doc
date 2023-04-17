@@ -5,7 +5,7 @@
 ## 依赖引入
 
 ```kts
-implementation("cn.qhplus.emo:device:0.6.0")
+implementation("cn.qhplus.emo:device:0.7.0")
 ```
 
 ## RomInfo

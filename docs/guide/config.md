@@ -5,7 +5,7 @@
 ## 依赖引入
 
 ```kts
-val version = "0.6.0"
+val version = "0.7.0"
 // 默认提供了 mmkv 的存储实现
 implementation("cn.qhplus.emo:config-mmkv:$version")
 // 可选：如果想自定义存储实现，则需引入 config-runtime 库
