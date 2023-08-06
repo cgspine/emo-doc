@@ -43,7 +43,7 @@ export default defineUserConfig({
         ]
     ],
   theme: defaultTheme({
-    repo: 'cgspine/emo',
+    repo: 'cgspine/emo-public',
     docsRepo: 'cgspine/emo-doc',
     docsBranch: 'master',
     docsDir: 'docs',
