@@ -3,7 +3,7 @@
 ## 依赖引入
 
 ```kts
-implementation("cn.qhplus.emo:core:0.7.0")
+implementation("cn.qhplus.emo:core")
 ```
 
 ## EmoConfig

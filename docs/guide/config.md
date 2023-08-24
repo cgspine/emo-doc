@@ -5,15 +5,14 @@
 ## 依赖引入
 
 ```kts
-val version = "0.7.0"
 // 默认提供了 mmkv 的存储实现
-implementation("cn.qhplus.emo:config-mmkv:$version")
+implementation("cn.qhplus.emo:config-mmkv")
 // 可选：如果想自定义存储实现，则需引入 config-runtime 库
-implementation("cn.qhplus.emo:config-runtime:$version")
+implementation("cn.qhplus.emo:config-runtime")
 // 可选：可是化的配置面板，可以引入和作为彩蛋供开发、产品、测试使用
-implementation("cn.qhplus.emo:config-panel:$version")
+implementation("cn.qhplus.emo:config-panel")
 // 需要引入 ksp plugin.
-ksp("cn.qhplus.emo:config-ksp:$version")
+ksp("cn.qhplus.emo:config-ksp:0.9.0")
 ```
 
 ## 使用

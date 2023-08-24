@@ -5,7 +5,7 @@
 ## 依赖引入
 
 ```kts
-implementation("cn.qhplus.emo:modal:0.7.0")
+implementation("cn.qhplus.emo:modal")
 ```
 
 ## Dialog
