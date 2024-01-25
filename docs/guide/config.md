@@ -12,7 +12,7 @@ implementation("cn.qhplus.emo:config-runtime")
 // 可选：可是化的配置面板，可以引入和作为彩蛋供开发、产品、测试使用
 implementation("cn.qhplus.emo:config-panel")
 // 需要引入 ksp plugin.
-ksp("cn.qhplus.emo:config-ksp:0.9.0")
+ksp("cn.qhplus.emo:config-ksp:0.11.0")
 ```
 
 ## 使用
