@@ -4,7 +4,7 @@
 
 1. 最低支持 `API Level` 为 24；
 2. `kotlin` 1.9.22；
-3. `Compose BOM` 2024.01.00，`Compose Compiler` 1.5.8。
+3. `Compose BOM` 2024.02.01，`Compose Compiler` 1.5.10。
 
 >历史版本对应关系可查看 [`compose-versions`](https://github.com/cgspine/emo-public#compose-versions)
 
@@ -15,7 +15,7 @@
 开发只需要在 `build.gradle.kts` 的 `dependencies` 里添加
 
 ```kts
-implementation(platform("cn.qhplus.emo:bom:2024.01.00"))
+implementation(platform("cn.qhplus.emo:bom:2024.03.00"))
 ```
 
 在使用其它子库时，就可以不用添加版本号，而由 `BOM` 进行约束
