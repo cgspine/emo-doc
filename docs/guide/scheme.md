@@ -6,7 +6,7 @@
 
 ```kts
 implementation("cn.qhplus.emo:scheme-impl")
-ksp("cn.qhplus.emo:scheme-ksp:0.12.0")
+ksp("cn.qhplus.emo:scheme-ksp:0.14.0")
 ```
 
 ## 特性

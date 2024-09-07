@@ -1,10 +1,13 @@
-import { defineUserConfig, defaultTheme } from 'vuepress'
+import { defineUserConfig } from 'vuepress'
 import { getDirname, path } from '@vuepress/utils'
 import { nprogressPlugin } from '@vuepress/plugin-nprogress'
+import { viteBundler } from '@vuepress/bundler-vite'
+import { defaultTheme } from '@vuepress/theme-default'
 
 const __dirname = getDirname(import.meta.url)
 
 export default defineUserConfig({
+  bundler: viteBundler(),
   lang: 'zh-CN',
   title: 'emo',
   description: '一个现代化 Android 开发组件库',

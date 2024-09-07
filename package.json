@@ -6,7 +6,9 @@
     "build": "vuepress build docs"
   },
   "devDependencies": {
+    "@vuepress/bundler-vite": "^2.0.0-rc.15",
     "@vuepress/plugin-nprogress": "next",
+    "@vuepress/theme-default": "^2.0.0-rc.42",
     "vuepress": "next"
   }
 }
